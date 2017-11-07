@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 
 	<body>
 		<header>
-			<img src='img/logo.jpg' id='logo'>
-			<h1 id='name'>Young He</h1>
-			<h3 id='title'>UXer</h3>
-
+			<div id='wrapper'>
+				<div id='logoContainer'>
+					<img src='img/logo.jpg' id='logo' alt='Logo'>
+				</div>
+				<div id='nameContainer'>
+					<h1 id='name'>Young He</h1>
+					<h3 id='title'>UXer</h3>
+				</div>
+			</div>
 		</header>
-		<div>
-			<hr id='hr'>
-		</div>
+		<hr id='hr'>
 
 
-		<aside>
-			<img src='img/main.jpg' width='100%' id='mainpic'>
-		</aside>
+		<figure>
+			<img src='img/main.jpg' id='mainpic' alt='Landscape'>
+		</figure>
 
-		<section>
+		<main class='worksContainer'>
 			<h2 id='featured'>Featured Work</h2>
 			<section id='works'>
-				<div class='work'>
-					<img src='img/bat.jpg' width='100%'>
+				<article class='work'>
+					<img src='img/bat.jpg' width='100%' alt='Bat Fish'>
 					<p class='description'>Bat Fish</p>
-				</div>
+				</article>
 
-				<div class='work'>
-					<img src='img/turtle.jpg' width='100%'>
+				<article class='work'>
+					<img src='img/turtle.jpg' width='100%' alt='Green Turtle'>
 					<p class='description'>Green Turtle</p>
-				</div>
+				</article>
 
-				<div class='work'>
-					<img src='img/leopard.jpg' width='100%'>
+				<article class='work'>
+					<img src='img/leopard.jpg' width='100%' alt='Leopard Shark'>
 					<p class='description'>Leopard Shark</p>
-				</div>
+				</article>
 			</section>
-		</section>
+		</main>
 
 	</body>
 

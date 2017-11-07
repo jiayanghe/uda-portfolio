@@ -5,15 +5,30 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
-	margin: 0 10% 0;
+	margin: 0 10%;
 	height: 100%;
 }
 
 header {
 	height: 20%;
-	text-align: right;
 	padding: 2% 0;
+}
+
+#wrapper {
+	height: 100%;
+	display: flex;
+}
+
+#logoContainer {
+	height: 100%;
+	width: 50%;
+}
+
+#nameContainer {
+	text-align: right;
 	color: #2d3c49;
+	height: 100%;
+	width: 50%;
 }
 
 #name {
@@ -26,27 +41,23 @@ header {
 }
 
 #logo {
-	float: left;
 	height: 100%;
 }
 
 #hr {
 	border: 2px solid #7d97ad;
+	width: 100%;
 
 }
 
-aside {
+figure {
 	height: 75%;
 	margin: 3% 0;
-
 }
 
 #mainpic {
 	max-height: 100%;
-}
-
-section {
-	
+	width: 100%;
 }
 
 #featured {
@@ -75,7 +86,7 @@ section {
 		height: 70%;
 	}
 
-	aside {
+	figure {
 		height: 30%;
 	}
 
