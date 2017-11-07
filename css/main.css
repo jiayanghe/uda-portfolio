@@ -81,6 +81,10 @@ figure {
 	color: #2d3c49;
 }
 
+.workImage {
+	width: 100%;
+}
+
 @media screen and (max-width: 550px) {
 	#logo {
 		height: 70%;
